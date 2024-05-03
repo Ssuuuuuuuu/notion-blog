@@ -5,14 +5,14 @@ const CONFIG = {
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "수바오",
     bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
+    email: "sh010409@gmail.com",
     linkedin: "",
     github: "Ssuuuuuuuu",
     instagram: "s_h__49",
   },
   projects: [
     {
-      name: `blog`,
+      name: `Ssuulog`,
       href: "https://github.com/Ssuuuuuuuu/notion-blog",
     },
   ],
@@ -53,7 +53,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
